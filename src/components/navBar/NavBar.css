@@ -1,0 +1,74 @@
+.NavBar {
+  display: flex;
+  height: 92px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  color: #fff5ee;
+  box-sizing: border-box;
+  z-index: 90;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0 5%;
+}
+
+.NavBar__list {
+  position: relative;
+  left: 25vh;
+  align-self: center;
+}
+
+.NavBar__list__items {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  width: 100%;
+  font-size: 22px;
+}
+
+a.active, .NavBar__list-item:hover {
+  color: #808080
+}
+
+.NavBar__list-item a {
+  padding: 0 1em;
+  cursor: pointer;
+}
+
+.NavBar__logo {
+  display: flex;
+  align-self: center;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  font-size: 50px;
+  background-color: white;
+  font-family: 'Cookie', cursive;
+  cursor: pointer;
+}
+.NavBar__logo a {
+  align-self: center;
+  color: black;
+}
+.NavBar__logo:hover {
+  background-color: #808080;
+}
+
+
+@media (max-width: 768px) {
+  .NavBar__list__items{
+    width: 0;
+  }
+  .NavBar__list__items{
+    font-size: 17px;
+  }
+  .NavBar__list{
+    left: 14vh;
+  }
+  .NavBar__list-item a{
+    padding: 0 5px;
+  }
+}
+
+

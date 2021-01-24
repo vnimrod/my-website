@@ -1,0 +1,59 @@
+.Portfolio {
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+  height:500px;
+}
+.Portfolio h1 {
+  position: relative;
+  bottom: 270px;
+  left: 1520px;
+}
+
+.Portfolio__cards {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  height: 300px;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.Portfolio__cards__item {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .Portfolio {
+    flex-direction: column;
+    height: 1100px;
+    padding:62px 0px 0px 0px;
+  
+  }
+  .Portfolio__cards {
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+  }
+  .Portfolio h1{
+    bottom: unset;
+    left: unset;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1700px) {
+  .Portfolio{
+    height: 300px;
+    padding: 43px;
+    margin-right: 100px;
+  }
+  .Portfolio__cards {
+    height: fit-content;
+    width: fit-content;
+  }
+  .Portfolio h1{
+    left:1116px;
+    bottom: 170px;
+  }
+}
