@@ -26,7 +26,7 @@ const MyWebsite = () => {
           <div className="MyWebsiteBack__about__web">
             <a
               className="btn"
-              href="https://weinstein-nims-MyWebsite-app-client.herokuapp.com/"
+              href="https://nimrod-weinstein.web.app/"
               target="_blank"
             >
               Website
@@ -35,7 +35,7 @@ const MyWebsite = () => {
           <div className="MyWebsiteBack__about__github">
             <a
               className="btn"
-              href="https://github.com/vnimrod/nims-MyWebsite-app-client/"
+              href="https://github.com/vnimrod/my-website/"
               target="_blank"
             >
               Code
